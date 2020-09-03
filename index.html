@@ -9,12 +9,27 @@
     <link rel="icon" type="image/png" href="favicon.ico">
 </head>
 <body>
-    <h1>My Emojis</h1>
-    <div id="emojiContainer"></div>
-    <input type="text" id="emoji-input" placeholder="type an emoji 🎉" required>
-    <div class="buttons-wrapper">
-        <button id="push-btn">Add to end</button>
+    <div id="container">
+        
+        <h1>My Emojis</h1>
+        
+        <div id="emojiContainer"></div>
+        
+        <input type="text" id="emoji-input" placeholder="type an emoji 🎉" required>
+        
+        <div class="buttons-wrapper">
+            <p>
+                <button id="push-btn">Add to end</button>
+                <button id="unshift-btn">Add to beginning</button>
+            </p>
+            <p>
+                <button id="pop-btn">Remove from end</button>
+                <button id="shift-btn">Remove from beginning</button>
+            </p>
+        </div>
+    
     </div>
+    
     <script src="index.js" type="text/javascript"></script>
 </body>
 </html>

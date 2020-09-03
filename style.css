@@ -8,7 +8,9 @@ body {
     padding: 10px;
     background-image: linear-gradient(#5DA4D9, #FFF);
 }
-
+p {
+    margin: 0;
+}
 #emojiContainer {
     margin: 40px;
     text-align: center;
@@ -17,14 +19,6 @@ body {
 #emojiContainer span {
     margin: 10px;
     font-size: 60px;
-}
-
-#push,#unshift {
-    background-color: #80D87F;
-}
-
-#shift,#pop {
-    background-color: #E23349;
 }
 
 h1 {
@@ -50,11 +44,26 @@ button {
     border: none;
     padding: 4px 10px;
     border-radius: 4px;
-    margin: 0 5px;
+    margin: 20px 5px;
 }
 
 .buttons-wrapper {
-    display: flex;
-    justify-content: center;
-    margin: 10px 0 40px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;;
+}
+
+#container {
+    margin-top: 200px;
+}
+
+#unshift-btn, #shift-btn {
+    font-family: Baloo;
+    letter-spacing: px;
+    background: #ed7e90;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 5px;
 }
